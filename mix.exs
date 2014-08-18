@@ -3,8 +3,8 @@ defmodule PorcelainExample.Mixfile do
 
   def project do
     [app: :porcelain_example,
-     version: "0.0.1",
-     elixir: "~> 0.14.0",
+     version: "0.1.0",
+     elixir: "~> 0.14",
      deps: deps]
   end
 
@@ -14,6 +14,6 @@ defmodule PorcelainExample.Mixfile do
   end
 
   defp deps do
-    [{:porcelain, "~> 1.0.0"}]
+    [{:porcelain, "~> 1.0"}]
   end
 end
