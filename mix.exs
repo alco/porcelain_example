@@ -14,6 +14,6 @@ defmodule PorcelainExample.Mixfile do
   end
 
   defp deps do
-    [{:porcelain, "~> 1.0"}]
+    [{:porcelain, "2.0.0"}]
   end
 end
